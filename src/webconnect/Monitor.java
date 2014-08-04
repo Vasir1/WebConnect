@@ -58,7 +58,7 @@ public class Monitor {
                 System.out.println("Problem in message reading");
             }
         }
-    }
+    }//TODO something
     public void checkIn(int _checkingIn){
         if (_checkingIn<isSitting.length){
             isSitting[_checkingIn]=true;
